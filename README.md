@@ -5,7 +5,7 @@
   <img src="https://komarev.com/ghpvc/?username=VijayGottipati&label=Profile%20views&color=0e75b6&style=flat" alt="VijayGottipati" />
 </p>
 
-<img align="right" alt="Coding" width="430" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
+<img align="right" alt="Coding Workspace" width="430" src="./assets/profile-banner.png">
 
 ## About Me
 
@@ -37,14 +37,26 @@ MS Computer Science student at New York University specializing in agentic AI sy
 
 ## Featured Projects
 
-- **GraphRAG Memory and Skills** - Building memory-aware retrieval and reusable skill execution for agentic workflows.  
-  Tech: `Python`, `LangGraph`, `LangChain`, `FastAPI`, `PostgreSQL`
+- **Autonomous DevOps Copilot** - `LangGraph`, `Gemini 1.5 Flash`, `Django`, `AWS SQS`, `PostgreSQL (pgvector)`, `Angular` - *Dec 2025*
+  - Cut manual triage time by 30% by building an autonomous DevOps copilot processing 100+ daily GitHub/Slack alerts with multi-agent LLM workflows (LangGraph + Gemini).
+  - Scaled real-time event processing to ~5K+ events/min with <200ms latency using an AWS SQS-backed async architecture, improving system reliability under bursty webhook loads.
+  - Increased developer velocity by auto-generating code fixes and opening PRs via agent-driven CI/CD workflows; implemented human-in-the-loop approvals, achieving high merge acceptance rates (~70-80%).
+  - Engineered persistent agent memory and semantic context retrieval using pgvector (Neon PostgreSQL), reducing decision latency by ~40% and enabling context-aware automation via a real-time Angular dashboard.
 
-- **Production LLM Orchestration Pipelines** - End-to-end orchestration of multi-step LLM tasks with observability and scalable deployment.  
-  Tech: `Python`, `Docker`, `AWS`, `Kubernetes`, `Redis`, `Kafka`
+- **CityLens** - `Gemini Live`, `FastAPI`, `Vite`, `React Native`, `Google Maps API`, `Firestore`, `GCP` - *Jan 2026*
+  - Increased recruiter engagement by 25% by optimizing a React Native interface to a 98/100 Lighthouse score, improving performance and SEO.
+  - Built a FastAPI-based location intelligence system integrating Google Maps APIs (places, geocoding, directions) with Firestore session context, enabling real-time navigation, visual assistance, and live environmental insights across multiple interaction modes.
 
-- **End-to-End AI System Deployment** - Fine-tuning and serving ML/LLM models for production use cases with optimized inference.  
-  Tech: `PyTorch`, `Hugging Face`, `vLLM`, `GCP`
+- **Real-Time Financial Fraud Explainer** - `LangChain`, `Kafka (AWS MSK)`, `AWS Bedrock AgentCore`, `Lenses.io` - *New York, NY*  
+  **2nd Place / 25 teams - Lenses.io Real-Time Data & AI Hackathon (Oct 2025)**
+  - Built a real-time fraud detection pipeline processing streaming transactions via Kafka (MSK), enabling instant detection of anomalous credit-card/PayPal activity.
+  - Designed a 3-agent (Detection-Context-Explainer) LLM system producing interpretable fraud insights, improving explainability of flagged events.
+  - Enabled low-latency stream observability and agent-triggered reasoning using Lenses.io MCP, supporting real-time anomaly propagation across pipelines.
+
+- **AI-Powered Shopping Automation System** - `Python`, `Browser Use`, `DeepL API` - *New York, NY, AI Tinkerer Hackathon (Nov 2025)*
+  - Automated end-to-end grocery purchasing by building an agent pipeline that ingests lists from Google Docs/Notion and executes checkout via browser automation (Instacart/Target).
+  - Processed multilingual inputs using DeepL API and structured extraction workflows, improving accuracy of item/quantity parsing across heterogeneous sources.
+  - Orchestrated modular agents (ingestion-translation-execution) with Manus, enabling secure, scalable automation with OAuth-based integrations.
 
 ## Personal Links
 
